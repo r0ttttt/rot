@@ -1,0 +1,71 @@
+<style>
+.line {
+  text-align: center;
+}
+.dis {
+font-size: small;
+color: rgb(82, 0, 0);
+}
+.logo {
+    white-space: pre-wrap;
+    color: rgb(82, 0, 0);
+  }
+  .unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+} /* stolen from stack overflow lmfao */
+.ex {
+height: 1.5cm;
+}
+.video-mask{
+    width: 400px;
+    border-radius: 20px; 
+    overflow: hidden; 
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+a, a:visited, a:hover, a:active {
+  color: rgb(255, 0, 0);
+}
+</style>
+<head>
+    <title>rot.rip</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta property="og:title" content="rot.rip">
+    <link rel = "icon" href = "assets/favicon.png">
+</head>
+<script src="assets/spark.js"></script>
+<body bgcolor="#000000"></body>  
+  <tt><div class="line logo unselectable">
+ ██▀███   ▒█████  ▄▄▄█████▓
+▓██ ▒ ██▒▒██▒  ██▒▓  ██▒ ▓▒
+▓██ ░▄█ ▒▒██░  ██▒▒ ▓██░ ▒░
+▒██▀▀█▄  ▒██   ██░░ ▓██▓ ░ 
+    ░██▓ ▒██▒░ ████▓▒░  ▒██▒ ░ .rip
+░ ▒▓ ░▒▓░░ ▒░▒░▒░   ▒ ░░   
+  ░▒ ░ ▒░  ░ ▒ ▒░     ░    
+  ░░   ░ ░ ░ ░ ▒    ░      
+   ░         ░ ░           
+  </div></tt>
+ <div class="ex"></div>
+ <div class="unselectable line">
+  <a href="#" onclick="javascript:play()">HELP ME!</a>
+ </div>
+<div class="video-mask">
+  <video value="PLAY" id="video" width="400" loop>
+    <source src="assets/rotting.mp4" type="video/mp4">
+  </video>
+</div>
+<script>
+  function play() {
+    var audio = document.getElementById("video");
+    audio.play();
+  }
+</script>
+<div class="unselectable dis line">rot#8630</div>
